@@ -2,7 +2,7 @@
   "compilerOptions": {
     "moduleResolution": "node",
     "module": "esnext",
-    "target": "es6",
+    "target": "ES6",
     "noImplicitAny": true,
     "preserveConstEnums": true,
     "outDir": "dist",
