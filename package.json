@@ -17,5 +17,5 @@
   "dependencies": {
     "@massivedecks/server": "file:./server",
     "@massivedecks/client": "file:./client"
-  }
+      }
 }
