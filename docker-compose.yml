@@ -1,0 +1,25 @@
+# This docker compose file is for building and running a development version of Massive Decks.
+# If you want to deploy a production instance, please see 
+# https://github.com/Lattyware/massivedecks/wiki/Deploying for important steps you should take.
+
+version: "3"
+
+networks:
+  internal:
+
+services:
+  server:
+    build: ./server
+    image: "massivedecks/server:dev"
+    networks:
+      - internal
+    restart: unless-stopped
+
+  client:
+    build: ./client
+    image: "massivedecks/client:dev"
+    ports:
+      - "8080:8080"
+    networks:
+      - internal
+    restart: unless-stopped
