@@ -2,10 +2,10 @@
   "name": "massivedecks",
   "description": "Pulls together both the server and client for Massive Decks, a comedy party game.",
   "version": "2.0.0",
-  "author": "Reread Games <team@rereadgames.com>",
+  "author": "Yash <newtoneinstienfarday@gmail.com>",
   "license": "AGPL-3.0-or-later",
   "private": true,
-  "repository": "github:Lattyware/massivedecks",
+  "repository": "https://github.com/Yash-Git-Hub/Dead-Inside",
   "engines": {
     "node": "14.x.x"
   },
